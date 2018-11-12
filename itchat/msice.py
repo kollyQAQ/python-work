@@ -165,8 +165,8 @@ def contents_reply(msg):
 
 
 # 微信登录
-itchat.auto_login(enableCmdQR=2, hotReload=True)
-# itchat.auto_login(hotReload=True)
+# itchat.auto_login(enableCmdQR=2, hotReload=True)
+itchat.auto_login(hotReload=True)
 
 # 查找小冰公众号名称保存到 iceName 变量
 ice = itchat.search_mps(name='小冰')
