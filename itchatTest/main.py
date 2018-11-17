@@ -2,6 +2,16 @@ import itchat
 from itchat.content import *
 import re
 import os
+from apscheduler.schedulers.background import BackgroundScheduler
+
+# 输出时间
+def job():
+    itchat.send('Text', friendsName)
+
+# BlockingScheduler
+scheduler = BackgroundScheduler()
+scheduler.add_job(job, 'interval', seconds=15) #每15秒执行
+scheduler.start()
 
 text = [TEXT]
 contents = [PICTURE]
@@ -65,7 +75,7 @@ def text_reply(msg):
     if msg['FromUserName'] == iceName and friendsName != '':
         print('收到来自小冰的消息：' + msg['Text'])
         itchat.send(msg['Text'], friendsName)
-        friendsName = ''
+        # friendsName = ''
     return None
 
 
@@ -134,11 +144,11 @@ def text_reply(msg):
                         raise Exception('%s is not in chatlist at all' % user)
             elif cmd == CMD_SHOW:
                 itchat.send_msg('list : %s\nprefix : %s' %
-                                (chatRoomUserList, chatPrefix), fromUserName)
+                                    (chatRoomUserList, chatPrefix), fromUserName)
             else:
                 raise Exception('command not found')
             itchat.send_msg('cmd success \nlist : %s\nprefix : %s' %
-                            (chatRoomUserList, chatPrefix), fromUserName)
+                                (chatRoomUserList, chatPrefix), fromUserName)
         elif fromText[:].startswith(chatPrefix):
             print('收到来自群聊【' + chatRoomName + '】【' + actualNickName + '】的消息:' + fromText)
             if chatRoomUserAll or actualNickName in chatRoomUserList:
@@ -165,8 +175,8 @@ def contents_reply(msg):
 
 
 # 微信登录
-# itchat.auto_login(enableCmdQR=2, hotReload=True)
-itchat.auto_login(hotReload=True)
+itchat.auto_login(enableCmdQR=2, hotReload=True)
+# itchat.auto_login(hotReload=True)
 
 # 查找小冰公众号名称保存到 iceName 变量
 ice = itchat.search_mps(name='小冰')

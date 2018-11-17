@@ -2,39 +2,48 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a32fad97-39d6-4cab-b60e-13ebba66f8a4" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/itchat/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/itchat/itchat.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learhing/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learhing/findMinAndMax.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learhing/range.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learhing/test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learhing/trim.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learhing/urllib.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itchatTest/scheduler/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learhing/apschedulerTest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learhing/my-bs4/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learhing/my-bs4/get_my_ip.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learhing/my-bs4/nba-game.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learhing/my-bs4/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learhing/my-bs4/weathersz.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learhing/requestsTest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learhing/schedulers/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learhing/schedulers/kkkkk.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auto_reply.py" beforeDir="false" afterPath="$PROJECT_DIR$/itchat/auto_reply.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello.py" beforeDir="false" afterPath="$PROJECT_DIR$/hello.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/itchat.pkl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/learning.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/msice-origin.py" beforeDir="false" afterPath="$PROJECT_DIR$/itchat/msice-origin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/msice.py" beforeDir="false" afterPath="$PROJECT_DIR$/itchat/msice.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itchat/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/itchatTest/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itchat/auto_reply.py" beforeDir="false" afterPath="$PROJECT_DIR$/itchatTest/auto_reply.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itchat/itchat.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/itchatTest/itchat.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itchat/msice-origin.py" beforeDir="false" afterPath="$PROJECT_DIR$/itchatTest/msice-origin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itchat/msice.py" beforeDir="false" afterPath="$PROJECT_DIR$/itchatTest/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learhing/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/learhing/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learhing/urllib.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/python_work$hello.coverage" NAME="hello Coverage Results" MODIFIED="1541925602331" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/python_work$urllib.coverage" NAME="urllib Coverage Results" MODIFIED="1541999844953" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/learhing" />
-    <SUITE FILE_PATH="coverage/python_work$findMinAndMax.coverage" NAME="findMinAndMax Coverage Results" MODIFIED="1541931045746" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/learhing" />
-    <SUITE FILE_PATH="coverage/python_work$auto_reply.coverage" NAME="auto_reply Coverage Results" MODIFIED="1540910014623" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/python_work$test.coverage" NAME="test Coverage Results" MODIFIED="1541998829724" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/learhing" />
-    <SUITE FILE_PATH="coverage/python_work$range.coverage" NAME="range Coverage Results" MODIFIED="1541928580163" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/learhing" />
+    <SUITE FILE_PATH="coverage/python_work$main.coverage" NAME="main Coverage Results" MODIFIED="1542443970082" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../wechat-robot" />
+    <SUITE FILE_PATH="coverage/python_work$test2.coverage" NAME="test2 Coverage Results" MODIFIED="1542458672407" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/learhing/my-bs4" />
+    <SUITE FILE_PATH="coverage/python_work$weather_sz.coverage" NAME="weather-sz Coverage Results" MODIFIED="1542459694485" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/learhing/my-bs4" />
+    <SUITE FILE_PATH="coverage/python_work$nba_game.coverage" NAME="nba-game Coverage Results" MODIFIED="1542459018660" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/learhing/my-bs4" />
+    <SUITE FILE_PATH="coverage/python_work$sched.coverage" NAME="sched Coverage Results" MODIFIED="1542344326155" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/learhing" />
+    <SUITE FILE_PATH="coverage/python_work$urllib.coverage" NAME="urllib Coverage Results" MODIFIED="1542344342679" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/learhing" />
     <SUITE FILE_PATH="coverage/python_work$learning.coverage" NAME="learning Coverage Results" MODIFIED="1539777484598" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/python_work$msice.coverage" NAME="msice Coverage Results" MODIFIED="1541926321216" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/python_work$trim.coverage" NAME="trim Coverage Results" MODIFIED="1541930437649" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/learhing" />
-    <SUITE FILE_PATH="coverage/python_work$demo1.coverage" NAME="demo1 Coverage Results" MODIFIED="1541928054548" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/learhing" />
+    <SUITE FILE_PATH="coverage/python_work$msice.coverage" NAME="msice Coverage Results" MODIFIED="1542346390239" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/itchat" />
+    <SUITE FILE_PATH="coverage/python_work$auto_reply.coverage" NAME="auto_reply Coverage Results" MODIFIED="1540910014623" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python_work$hello.coverage" NAME="hello Coverage Results" MODIFIED="1541559684894" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python_work$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1542460517133" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/learhing" />
+    <SUITE FILE_PATH="coverage/python_work$apschedulerTest.coverage" NAME="apschedulerTest Coverage Results" MODIFIED="1542345923363" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/learhing" />
+    <SUITE FILE_PATH="coverage/python_work$msice__1_.coverage" NAME="msice (1) Coverage Results" MODIFIED="1542346554980" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/itchatTest" />
+    <SUITE FILE_PATH="coverage/python_work$test.coverage" NAME="test Coverage Results" MODIFIED="1542456807965" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/learhing/my-bs4" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="449644472">
@@ -71,101 +80,80 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/itchat/msice.py">
+      <file leaf-file-name="requestsTest.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/learhing/requestsTest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+            <state>
+              <caret column="15" selection-start-column="15" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="apschedulerTest.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/learhing/apschedulerTest.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
               <folding>
-                <element signature="e#0#13#0" expanded="true" />
+                <element signature="e#0#61#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hello.py">
+      <file leaf-file-name="test.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/learhing/my-bs4/test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            <state>
+              <caret column="29" selection-start-column="29" selection-end-column="29" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/learhing/range.py">
+      <file leaf-file-name="get_my_ip.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/learhing/my-bs4/get_my_ip.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/learhing/trim.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+            <state relative-caret-position="119">
+              <caret line="7" column="13" lean-forward="true" selection-end-line="7" selection-end-column="13" />
               <folding>
-                <marker date="1541930462651" expanded="true" signature="36:149" ph="..." />
+                <element signature="e#0#29#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/learhing/findMinAndMax.py">
+      <file leaf-file-name="nba-game.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/learhing/my-bs4/nba-game.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/learhing/urllib.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="25">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://D:/Program Files/Python3.6/Lib/site-packages/requests/__init__.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="107">
-              <caret line="42" selection-start-line="42" selection-end-line="42" />
+            <state relative-caret-position="170">
+              <caret line="10" column="19" lean-forward="true" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
               <folding>
-                <element signature="e#871#885#0" expanded="true" />
+                <element signature="e#0#29#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://D:/Program Files/Python3.6/Lib/site-packages/urllib3/__init__.py">
+      <file leaf-file-name="weathersz.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/learhing/my-bs4/weathersz.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="107">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="136">
+              <caret line="8" column="17" lean-forward="true" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+              <folding>
+                <element signature="e#0#29#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://D:/Program Files/Python3.6/Lib/email/utils.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="107">
-              <caret line="30" selection-start-line="30" selection-end-line="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file leaf-file-name="test.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/learhing/test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="25">
-              <caret line="1" column="15" selection-start-line="1" selection-start-column="15" selection-end-line="1" selection-end-column="15" />
+            <state relative-caret-position="102">
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -182,7 +170,14 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>chatRoomName</find>
+      <find>itchatTest</find>
+      <find>match-list</find>
+      <find>text_code</find>
+      <find>txt_share</find>
     </findStrings>
+    <replaceStrings>
+      <replace>itchat</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -194,12 +189,17 @@
         <option value="$PROJECT_DIR$/auto_reply.py" />
         <option value="$PROJECT_DIR$/msice.py" />
         <option value="$PROJECT_DIR$/hello.py" />
-        <option value="$PROJECT_DIR$/learhing/demo1.py" />
-        <option value="$PROJECT_DIR$/learhing/range.py" />
-        <option value="$PROJECT_DIR$/learhing/trim.py" />
-        <option value="$PROJECT_DIR$/learhing/findMinAndMax.py" />
-        <option value="$PROJECT_DIR$/learhing/test.py" />
         <option value="$PROJECT_DIR$/learhing/urllib.py" />
+        <option value="$PROJECT_DIR$/learhing/sched.py" />
+        <option value="$PROJECT_DIR$/itchat/msice.py" />
+        <option value="$PROJECT_DIR$/itchatTest/msice.py" />
+        <option value="$PROJECT_DIR$/learhing/kkkkk.py" />
+        <option value="$PROJECT_DIR$/learhing/apschedulerTest.py" />
+        <option value="$PROJECT_DIR$/learhing/my-bs4/test2.py" />
+        <option value="$PROJECT_DIR$/learhing/my-bs4/test.py" />
+        <option value="$PROJECT_DIR$/learhing/my-bs4/weather-sz.py" />
+        <option value="$PROJECT_DIR$/learhing/my-bs4/nba-game.py" />
+        <option value="$PROJECT_DIR$/learhing/test.py" />
       </list>
     </option>
   </component>
@@ -209,18 +209,21 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="47" />
-    <option name="y" value="23" />
-    <option name="width" value="1873" />
-    <option name="height" value="877" />
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
   </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1920" />
+    <option name="height" value="1001" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
+      <autoscrollFromSource ProjectPane="true" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -231,12 +234,36 @@
             <path>
               <item name="python-work" type="b2602c69:ProjectViewProjectNode" />
               <item name="python-work" type="462c0819:PsiDirectoryNode" />
+              <item name="itchatTest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="python-work" type="b2602c69:ProjectViewProjectNode" />
+              <item name="python-work" type="462c0819:PsiDirectoryNode" />
+              <item name="itchatTest" type="462c0819:PsiDirectoryNode" />
+              <item name="scheduler" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="python-work" type="b2602c69:ProjectViewProjectNode" />
+              <item name="python-work" type="462c0819:PsiDirectoryNode" />
               <item name="learhing" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="python-work" type="b2602c69:ProjectViewProjectNode" />
+              <item name="python-work" type="462c0819:PsiDirectoryNode" />
+              <item name="learhing" type="462c0819:PsiDirectoryNode" />
+              <item name="my-bs4" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="python-work" type="b2602c69:ProjectViewProjectNode" />
+              <item name="python-work" type="462c0819:PsiDirectoryNode" />
+              <item name="learhing" type="462c0819:PsiDirectoryNode" />
+              <item name="schedulers" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -245,11 +272,14 @@
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\workspace-demo\python-work\itchat" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/itchatTest" />
+      <recent name="$PROJECT_DIR$/../wechat-robot" />
       <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/learhing/schedulers" />
+      <recent name="D:\workspace-demo\python-work\itchat" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -264,8 +294,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.urllib">
-    <configuration name="findMinAndMax" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.test (1)">
+    <configuration name="nba-game" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python-work" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -273,43 +303,18 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/learhing" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/learhing/my-bs4" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/learhing/findMinAndMax.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/learhing/my-bs4/nba-game.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
     </configuration>
-    <configuration name="range" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="python-work" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/learhing" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/learhing/range.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="test (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python-work" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -327,11 +332,8 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
     </configuration>
-    <configuration name="trim" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python-work" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -339,21 +341,18 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/learhing" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/learhing/my-bs4" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/learhing/trim.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/learhing/my-bs4/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
     </configuration>
-    <configuration name="urllib" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="test2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python-work" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -361,34 +360,50 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/learhing" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/learhing/my-bs4" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/learhing/urllib.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/learhing/my-bs4/get_my_ip.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
+    </configuration>
+    <configuration name="weather-sz" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python-work" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/learhing/my-bs4" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/learhing/my-bs4/weathersz.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="Python.range" />
-      <item itemvalue="Python.trim" />
-      <item itemvalue="Python.findMinAndMax" />
-      <item itemvalue="Python.urllib" />
       <item itemvalue="Python.test" />
+      <item itemvalue="Python.test2" />
+      <item itemvalue="Python.nba-game" />
+      <item itemvalue="Python.weather-sz" />
+      <item itemvalue="Python.test (1)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.urllib" />
+        <item itemvalue="Python.test (1)" />
+        <item itemvalue="Python.weather-sz" />
+        <item itemvalue="Python.nba-game" />
+        <item itemvalue="Python.test2" />
         <item itemvalue="Python.test" />
-        <item itemvalue="Python.findMinAndMax" />
-        <item itemvalue="Python.trim" />
-        <item itemvalue="Python.range" />
       </list>
     </recent_temporary>
   </component>
@@ -406,29 +421,30 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="0" y="23" width="1920" height="1001" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19829424" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="11" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.32998884" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32576618" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.42111236" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24813631" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="SciView" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.61204016" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3268839" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.43255296" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Python Console" order="12" weight="0.32998884" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" />
-      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3291714" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -449,6 +465,52 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/auto_reply.py" />
+    <entry file="file://$PROJECT_DIR$/learning.py" />
+    <entry file="file://$PROJECT_DIR$/hello.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/msice.py" />
+    <entry file="file://$PROJECT_DIR$/msice.py" />
+    <entry file="file://$PROJECT_DIR$/learning.py" />
+    <entry file="file://$PROJECT_DIR$/msice.py" />
+    <entry file="file://$PROJECT_DIR$/learning.py" />
+    <entry file="file://$PROJECT_DIR$/msice.py" />
+    <entry file="file://$PROJECT_DIR$/msice.py" />
+    <entry file="file://$PROJECT_DIR$/msice.py" />
+    <entry file="file://$PROJECT_DIR$/hello.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="14" lean-forward="true" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/msice.py" />
+    <entry file="file://$PROJECT_DIR$/msice.py" />
+    <entry file="file://$PROJECT_DIR$/msice.py" />
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="1067" selection-start-line="1067" selection-end-line="1067" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/msice-origin.py" />
+    <entry file="file://$PROJECT_DIR$/msice.py" />
+    <entry file="file://$PROJECT_DIR$/auto_reply.py" />
+    <entry file="file://$PROJECT_DIR$/msg_register.py" />
+    <entry file="file://$PROJECT_DIR$/learning.py" />
+    <entry file="file://$PROJECT_DIR$/hello.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="227">
@@ -457,7 +519,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test.py" />
-    <entry file="file://$PROJECT_DIR$/itchat/msice-origin.py">
+    <entry file="file://$PROJECT_DIR$/itchatTest/msice-origin.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-91">
           <caret line="13" column="12" selection-start-line="13" selection-end-line="13" selection-end-column="12" />
@@ -465,26 +527,14 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/msg_register.py" />
-    <entry file="file://$PROJECT_DIR$/itchat/auto_reply.py">
+    <entry file="file://$PROJECT_DIR$/itchatTest/auto_reply.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/learning.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="e#234#244#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/learhing/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/learning.py" />
     <entry file="file://$PROJECT_DIR$/hello.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
@@ -503,9 +553,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
-          <folding>
-            <marker date="1541930462651" expanded="true" signature="36:149" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -516,58 +563,142 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/itchat/msice.py">
+    <entry file="file://D:/Program Files/Python3.6/Lib/site-packages/requests/api.py" />
+    <entry file="file://D:/Program Files/Python3.6/Lib/site-packages/requests/__init__.py" />
+    <entry file="file://D:/Program Files/Python3.6/Lib/site-packages/urllib3/__init__.py" />
+    <entry file="file://D:/Program Files/Python3.6/Lib/email/utils.py" />
+    <entry file="file:///usr/local/lib/python3.6/site-packages/requests/api.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        <state relative-caret-position="298">
+          <caret line="69" lean-forward="true" selection-start-line="69" selection-end-line="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python3.6/site-packages/requests/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="20" selection-start-line="14" selection-start-column="7" selection-end-line="16" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python3.6/site-packages/apscheduler/schedulers/background.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="1" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itchatTest/msice.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="17" lean-forward="true" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/learhing/test.py">
+    <entry file="file://$PROJECT_DIR$/../wechat-robot/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="1" column="15" selection-start-line="1" selection-start-column="15" selection-end-line="1" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Program Files/Python3.6/Lib/site-packages/requests/api.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="62" column="4" selection-start-line="62" selection-start-column="4" selection-end-line="62" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Program Files/Python3.6/Lib/site-packages/requests/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="42" selection-start-line="42" selection-end-line="42" />
+        <state relative-caret-position="255">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
           <folding>
-            <element signature="e#871#885#0" expanded="true" />
+            <element signature="e#0#13#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/Program Files/Python3.6/Lib/site-packages/urllib3/__init__.py">
+    <entry file="file://$PROJECT_DIR$/learhing/requestsTest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        <state>
+          <caret column="15" selection-start-column="15" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/Program Files/Python3.6/Lib/email/utils.py">
+    <entry file="file://$PROJECT_DIR$/itchatTest/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        <state relative-caret-position="289">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/learhing/urllib.py">
+    <entry file="file://$PROJECT_DIR$/learhing/schedTest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
+        <state relative-caret-position="187">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learhing/apschedulerTest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#61#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learhing/my-bs4/get_my_ip.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="13" lean-forward="true" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learhing/schedulers/kkkkk.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
           <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learhing/my-bs4/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="29" selection-start-column="29" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learhing/my-bs4/nba-game.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="19" lean-forward="true" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learhing/my-bs4/weathersz.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="17" lean-forward="true" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learhing/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
