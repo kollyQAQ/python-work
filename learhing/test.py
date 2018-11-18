@@ -1,6 +1,11 @@
-import sys
+# 休眠
 from time import sleep
-sleep(3)
-print(sys.path)
-sleep(4)
-print(sys.path)
+# sleep(random.randint(1, 3))
+
+# 生成随机数
+import random
+print(random.randint(1, 3))
+print(random.randint(1, 3))
+print(random.randint(1, 3))
+print(random.randint(0, 9))
+print(random.randint(0, 9))
