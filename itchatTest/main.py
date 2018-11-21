@@ -4,7 +4,7 @@ import itchat
 from itchat.content import *
 import random
 from time import sleep
-from itchatTest.scheduler import say_hello #勿删
+from itchatTest.scheduler import send_weather_info #勿删
 
 CMD_PREFIX = 'prefix'
 CMD_CHAT = 'chat'
@@ -30,7 +30,7 @@ def text_reply(msg):
 
     # 保存好友信息
     friendsName = msg['FromUserName']
-    print('收到来自【' + msg['User'].NickName + '】的消息：' + msg['Text'])
+    print('收到来自【'+friendsName+'】【' + msg['User'].NickName + '】的消息：' + msg['Text'])
 
     itchat.send_msg(msg['Text'], iceName)
     return None
@@ -42,7 +42,7 @@ def contents_reply(msg):
 
     friendsName = msg['FromUserName']
     fileName = msg['FileName']
-    print('收到来自【' + msg['ActualNickName'] + '】的图片')
+    print('收到来自【' + friendsName + '】的图片' + fileName)
 
     # 下载图片
     msg['Text'](fileName)
@@ -59,26 +59,27 @@ def text_reply(msg):
     # 如果是小冰的消息，转发给好友
     if msg['FromUserName'] == iceName and friendsName != '':
         print('收到来自小冰的消息：' + msg['Text'])
+        # 如果是小冰的消息，转发给好友
         # 随机等1-2秒，避免被检测
         sleep(random.randint(1, 3))
         itchat.send(msg['Text'], friendsName)
-        friendsName = ''
+        # friendsName = ''
     return None
 
 # 收到公号的的图片/表情
 @itchat.msg_register(PICTURE, isMpChat=True)
 def contents_reply(msg):
     global friendsName, iceName
-    # 如果是小冰的消息，转发给好友
+
     if msg['FromUserName'] == iceName and friendsName != '':
         fileName = msg['FileName']
-        print('收到来自小冰的图片')
+        print('收到来自小冰的图片:' + fileName)
         # 下载图片
         msg['Text'](fileName)
         # 转发图片/表情给好友
         # 随机等1-2秒，避免被检测
         itchat.send_image(fileName, friendsName)
-        friendsName = ''
+        # friendsName = ''
         # 删除图片
         os.remove(fileName)
     return None
@@ -160,7 +161,8 @@ def contents_reply(msg):
 
 # 微信登录
 # itchat.auto_login(enableCmdQR=2, hotReload=True)
-itchat.auto_login(hotReload=True)
+# itchat.auto_login(hotReload=True)
+itchat.auto_login()
 
 # 查找小冰公众号名称保存到 iceName 变量
 ice = itchat.search_mps(name='小冰')
