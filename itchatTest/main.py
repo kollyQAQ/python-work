@@ -12,7 +12,8 @@ CMD_CHAT = 'chat'
 CMD_SHUTUP = 'shutup'
 CMD_SHOW = 'show'
 
-friendsName = contact.get_user_name_by_remark('赖皮糖')
+filePath = 'D:\workspace-demo\python-work\itchatTest\static\ice\\'
+friendsName = contact.get_user_name_by_remark('彭喜糖')
 chatRoomName = ''
 chatRoomUserList = []
 chatRoomUserAll = False
@@ -24,7 +25,7 @@ def add_friend(msg):
     print(msg)
     msg.user.verify()
     msg.user.send('终于等到你啦，主人~')
-    msg.user.send('我是你的贴心机器人，可以陪你聊天，给你唱歌、讲段子，还有好玩的小游戏哦')
+    msg.user.send('我是你的贴心机器人小糖，可以陪你聊天、唱歌、讲段子，还有好玩的小游戏哦')
 
 # 收到好友文字消息
 @itchat.msg_register(TEXT, isFriendChat=True)
@@ -35,7 +36,10 @@ def text_reply(msg):
     friendsName = msg['FromUserName']
     print('收到来自【'+friendsName+'】【' + msg['User'].NickName + '】的消息：' + msg['Text'])
 
-    itchat.send_msg(msg['Text'], iceName)
+    if msg['Text'] == '小游戏' or msg['Text'] == '玩游戏':
+        itchat.send_msg('想玩小游戏了吗，嘿嘿，试着输入[猜码图]、[猜明星]、[成语接龙]吧，更有隐藏小游戏等你解锁哟~', friendsName)
+    else:
+        itchat.send_msg(msg['Text'], iceName)
 
     return None
 
@@ -67,7 +71,7 @@ def picture_reply(msg):
     # 下载语音
     msg['Text']('D:\workspace-demo\python-work\itchatTest\static\other\\' + fileName)
     sleep(5)
-    itchat.send_msg('等我升级后再跟你说话~', friendsName)
+    itchat.send_msg('小糖还不够智能，没办法识别主人说的话呢，呜呜呜~', friendsName)
 
 # 收到小冰的文本消息
 @itchat.msg_register(TEXT, isMpChat=True)
@@ -77,8 +81,9 @@ def text_reply(msg):
     # 如果是小冰的消息，转发给好友
     if msg['FromUserName'] == iceName and friendsName != '':
         print('收到来自小冰的消息：' + msg['Text'])
-        # 如果是小冰的消息，转发给好友
-        # 随机等1-2秒，避免被检测
+        if '小冰' in msg['Text']:
+            msg['Text'].replace('小冰','小糖')
+        # 随机等1-3秒，避免被检测
         sleep(random.randint(1, 3))
         itchat.send(msg['Text'], friendsName)
         # friendsName = ''
@@ -111,10 +116,10 @@ def recording_reply(msg):
         fileName = msg['FileName']
         print('收到来自小冰的语音:' + fileName)
         # 下载语音
-        msg['Text']('D:\workspace-demo\python-work\itchatTest\static\ice\\' + fileName)
+        msg['Text'](filePath + fileName)
         # 转发语音给好友
         sleep(5)
-        itchat.send_file(fileName, friendsName)
+        itchat.send_file(filePath + fileName, friendsName)
         # friendsName = ''
     return None
 
