@@ -13,7 +13,7 @@ CMD_SHUTUP = 'shutup'
 CMD_SHOW = 'show'
 
 filePath = 'D:\workspace-demo\python-work\itchatTest\static\ice\\'
-friendsName = contact.get_user_name_by_remark('彭喜糖')
+friendsName = ''
 chatRoomName = ''
 chatRoomUserList = []
 chatRoomUserAll = False
@@ -78,6 +78,9 @@ def picture_reply(msg):
 def text_reply(msg):
     global friendsName, iceName
 
+    if friendsName == '':
+        friendsName = contact.get_user_name_by_remark('彭喜糖')
+
     # 如果是小冰的消息，转发给好友
     if msg['FromUserName'] == iceName and friendsName != '':
         print('收到来自小冰的消息：' + msg['Text'])
@@ -93,6 +96,9 @@ def text_reply(msg):
 @itchat.msg_register(PICTURE, isMpChat=True)
 def picture_reply(msg):
     global friendsName, iceName
+
+    if friendsName == '':
+        friendsName = contact.get_user_name_by_remark('彭喜糖')
 
     if msg['FromUserName'] == iceName and friendsName != '':
         fileName = msg['FileName']
@@ -111,6 +117,9 @@ def picture_reply(msg):
 @itchat.msg_register(RECORDING, isMpChat=True)
 def recording_reply(msg):
     global friendsName, iceName
+
+    if friendsName == '':
+        friendsName = contact.get_user_name_by_remark('彭喜糖')
 
     if msg['FromUserName'] == iceName and friendsName != '':
         fileName = msg['FileName']
