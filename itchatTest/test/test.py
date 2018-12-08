@@ -1,8 +1,8 @@
 import sys
+import os
 print(sys.path)
 
-from itchatTest.utils import weather_util
-weather_util.get_weather_today()
-
-from itchatTest.utils import nba_util
-nba_util.get_game_today()
+print(os.path.dirname(os.path.abspath("__file__")))
+print(os.path.pardir)
+print(os.path.join(os.path.dirname("__file__"),os.path.pardir))
+print(os.path.abspath(os.path.join(os.path.dirname("__file__"),os.path.pardir)))
