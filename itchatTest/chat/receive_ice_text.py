@@ -12,8 +12,8 @@ def text_reply(msg):
         print('收到来自【小冰】的消息：' + msg['Text'])
         if '小冰' in msg['Text']:
             msg['Text'].replace('小冰','小糖')
-        # 随机等1-3秒，避免被检测
-        sleep(random.randint(1, 3))
+        # 随机等几秒，避免被系统检测为机器人
+        sleep(random.randint(2, 5))
         itchat.send(msg['Text'], GlobalVar.FRIENDS_NAME)
         # GlobalVar.FRIENDS_NAME = ''
     return None
