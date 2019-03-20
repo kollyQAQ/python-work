@@ -4,6 +4,11 @@ from time import sleep
 from datetime import datetime
 from apscheduler.schedulers.background import BackgroundScheduler
 import utils.weather_util as weather_util
+import common.global_var as GlobalVar
+
+# 查询天气信息
+def query_weather_info():
+    itchat.send_msg('深圳天气', GlobalVar.ICE_NAME)
 
 # 发送天气信息
 def send_weather_info():
