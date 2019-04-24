@@ -51,8 +51,7 @@ def send_sth():
     sleep(10)
     user = contact.get_user_name_by_remark('kolly')
     itchat.send('我肥来啦~', user)
-    weather_info = weather_util.get_weather_today()
-    itchat.send(weather_info, user)
+    itchat.send(weather_util.get_weather_today(), user)
 
 def init_scheduler():
     # BackgroundScheduler

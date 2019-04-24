@@ -1,10 +1,17 @@
+#coding=utf-8
+
 import itchat
 import common.global_var as GlobalVar
 import scheduler.scheduler_task as schedulerTask
-from itchatTest.chat import *
+# from itchatTest.chat import *
+import chat.receive_friends_text
+import chat.receive_friends_picture
+import chat.receive_ice_text
+import chat.receive_ice_picture
 
 # 微信登录
 # itchat.auto_login(enableCmdQR=2, hotReload=True)
+# itchat.auto_login(enableCmdQR=-2, hotReload=True)
 itchat.auto_login(hotReload=True)
 # itchat.auto_login()
 
