@@ -18,7 +18,7 @@ class Demo:
         # 创建Session:
         session = mysqlApi.getSession()
         # 创建Query查询，filter是where条件，最后调用one()返回唯一行，如果调用all()则返回所有行:
-        user = session.query(User).filter(User.id=='8').one()
+        user = session.query(User).filter(User.id=='1').one()
         user2 = session.query(User).all()
         # 打印类型和对象的name属性:
         print('type:', type(user))
@@ -31,5 +31,6 @@ class Demo:
 
 if __name__ == '__main__':
     demo = Demo()
+    demo.add()
     demo.query()
 
