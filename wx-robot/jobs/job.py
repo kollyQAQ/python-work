@@ -6,7 +6,7 @@ import common.weather_spider as weatherSpider
 bot, user_kolly = None, None
 
 
-def schedulerInit():
+def debug():
     bot.file_helper.send('scheduler init!')
 
 
@@ -15,12 +15,13 @@ def init_scheduler(bot_var):
     global bot, user_kolly
     bot = bot_var
     user_kolly = ensure_one(bot.friends().search('kolly'))
+    # 通知 kolly 定时任务已启动
     user_kolly.send("定时任务已启动！")
 
     # 后台非阻塞定时任务
     scheduler = BackgroundScheduler()
     # 调试
-    # scheduler.add_job(schedulerInit, 'interval', seconds=30) #立刻执行
+    # scheduler.add_job(debug, 'interval', seconds=30) #立刻执行
     # 早上发送天气预报
     scheduler.add_job(send_weather_info, 'cron', day_of_week='mon-sun', hour=6, minute=0)  # corn表达式
     scheduler.add_job(send_chicken_soup, 'cron', day_of_week='mon-sun', hour=6, minute=1)  # corn表达式
@@ -45,6 +46,7 @@ def send_chicken_soup():
 
 # 发送睡前提醒
 def send_goodnight():
-    info = '今天的总结\n' \
-           '明天的计划\n'
+    info = '请完成今天的总结\n' \
+           '请写下明天的计划\n' \
+           '早起、阅读、锻炼~不虚度光阴'
     user_kolly.send(info)
